@@ -1,3 +1,18 @@
+/**
+ * Requirements:
+ * Create a like button 
+ * On clicking the button the name should be liked
+ * reclicking it like should be removed
+ * 
+ * Algorithm:
+ * 1 Created a function for like and dislike
+ * 2 Get the id of the iterated data
+ * 3 If the iterated id mathches the id of the liked element and 
+ * 4 If the isactive is false then change the isactive to true and change the color of the like icon to blue indicating liked,
+ * 5 If the isactive is true then change it false and change the color to white indicating not liked
+ */
+
+
 import { useState } from "react";
 const LikeCards = () => {
     const [user, setUser] = useState([
@@ -292,3 +307,4 @@ const LikeCards = () => {
 }
 
 export default LikeCards;
+
